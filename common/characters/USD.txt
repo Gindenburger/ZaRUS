@@ -1,6 +1,6 @@
 characters = {
-	GLB_Afonich {
-		name = GLB_Afonich
+	USD_Afonich {
+		name = USD_Afonich
 		portraits = {
 			civilian = {}
 			army = {}
@@ -27,8 +27,8 @@ characters = {
 		}
 	}
 	
-	GLB_Adam {
-		name = GLB_Adam
+	USD_Adam {
+		name = USD_Adam
 		portraits = {
 			civilian = {}
 			army = {}
@@ -55,8 +55,8 @@ characters = {
 		}
 	}
 
-	GLB_LAPOT {
-		name = GLB_LAPOT
+	USD_LAPOT {
+		name = USD_LAPOT
 		portraits = {
 			civilian = {}
 			army = {}
@@ -83,8 +83,8 @@ characters = {
 		}
 	}
 
-	GLB_RACHUS {
-		name = GLB_RACHUS
+	USD_RACHUS {
+		name = USD_RACHUS
 		portraits = {
 			civilian = {}
 			army = {}
@@ -111,8 +111,8 @@ characters = {
 		}
 	}
 
-	GLB_GLINOMESSI {
-		name = GLB_GLINOMESSI
+	USD_GLINOMESSI {
+		name = USD_GLINOMESSI
 		portraits = {
 			civilian = {}
 			army = {}

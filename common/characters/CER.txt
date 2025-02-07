@@ -1,6 +1,6 @@
 characters = {
-	GLB_Afonich {
-		name = GLB_Afonich
+	CER_Afonich {
+		name = CER_Afonich
 		portraits = {
 			civilian = {}
 			army = {}
@@ -27,8 +27,8 @@ characters = {
 		}
 	}
 	
-	GLB_Adam {
-		name = GLB_Adam
+	CER_Adam {
+		name = CER_Adam
 		portraits = {
 			civilian = {}
 			army = {}
@@ -55,8 +55,8 @@ characters = {
 		}
 	}
 
-	GLB_LAPOT {
-		name = GLB_LAPOT
+	CER_LAPOT {
+		name = CER_LAPOT
 		portraits = {
 			civilian = {}
 			army = {}
@@ -83,8 +83,8 @@ characters = {
 		}
 	}
 
-	GLB_RACHUS {
-		name = GLB_RACHUS
+	CER_RACHUS {
+		name = CER_RACHUS
 		portraits = {
 			civilian = {}
 			army = {}
@@ -111,8 +111,8 @@ characters = {
 		}
 	}
 
-	GLB_GLINOMESSI {
-		name = GLB_GLINOMESSI
+	CER_GLINOMESSI {
+		name = CER_GLINOMESSI
 		portraits = {
 			civilian = {}
 			army = {}
