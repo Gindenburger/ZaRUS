@@ -1,5 +1,28 @@
 add_namespace = news
 
+# test
+news_event = {
+    id = test.6
+    title = test.6.t
+    desc = test.6.d
+    picture = GFX_report_event_generic_news
+    major = yes 
+
+    is_triggered_only = yes
+
+    trigger = {
+        date > 1936.01.15
+        }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name =test.6.a  
+    }
+}
+
 # new year 37
 news_event = {
     id = new_year.1
@@ -14,7 +37,7 @@ news_event = {
     }
 
     option = {
-        name = my_news_event.1.a  
+        name =new_year.1.a  
     }
 }
 
@@ -32,7 +55,7 @@ news_event = {
     }
 
     option = {
-        name = my_news_event.2.a  
+        name =new_year.2.a  
     }
 }
 
@@ -50,7 +73,7 @@ news_event = {
     }
 
     option = {
-        name = my_news_event.3.a  
+        name =new_year.3.a  
     }
 }
 
@@ -68,7 +91,7 @@ news_event = {
     }
 
     option = {
-        name = my_news_event.3.a  
+        name =new_year.3.a  
     }
 }
 
@@ -86,7 +109,7 @@ news_event = {
     }
 
     option = {
-        name = my_news_event.4.a  
+        name =new_year.4.a  
     }
 }
 
@@ -104,7 +127,7 @@ news_event = {
     }
 
     option = {
-        name = my_news_event.5.a  
+        name =new_year.5.a  
     }
 }
 
