@@ -26,6 +26,34 @@ characters = {
 			}
 		}
 	}
+	
+	GLB_Adam {
+		name = GLB_Adam
+		portraits = {
+			civilian = {}
+			army = {}
+		}
+	
+		field_marshal = { 
+				traits = { Infantry_Expert Panzer_Expert }
+				skill = 10
+				attack_skill = 10
+				defense_skill = 10
+				planning_skill = 10
+				logistics_skill = 10
+
+			}
+		
+		advisor = {
+				cost = 300
+				slot = theorist
+				ledger = army
+
+				traits = {
+					grand_battle_plan_expert
+			}
+		}
+	}
 
 
 

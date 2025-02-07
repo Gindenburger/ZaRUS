@@ -2,6 +2,7 @@ capital = 242
 set_oob = "GLB_1936"
 
 recruit_character = GLB_Afonich
+recruit_character = GLB_Adam
 
 
 set_national_unity = 0.5
