@@ -1,0 +1,34 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"NOV"={
+			history = "NOV_GATHERING_STORM_DESC"
+			ideology = fascism
+		}
+		
+		"GLB"={
+			history = "GLB_GATHERING_STORM_DESC"
+			ideology = fascism
+		}
+		
+		"NIT"={
+			history = "NIT_GATHERING_STORM_DESC"
+			ideology = fascism
+		}
+		
+		"CER"={
+			history = "CER_GATHERING_STORM_DESC"
+			ideology = fascism
+		}
+		"USD"={
+			history = "CER_GATHERING_STORM_DESC"
+			ideology = fascism
+		}
+	}
+}

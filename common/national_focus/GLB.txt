@@ -1,0 +1,516 @@
+focus_tree = {
+	id = FocusTree0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GLB
+		}
+	}
+	default = no
+	focus = {
+		id = Make_the_country_safe
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 3
+		x = 21
+		y = 0
+		
+		completion_reward = {
+		
+		diplomatic_relation = {
+			country = SOV
+			relation = non_aggression_pact
+			active = no
+		}
+		
+		add_stability = 0.15
+		
+		}
+
+	}
+	
+	focus = {
+		id = Smolensk_reform
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 6
+		y = 0
+
+		
+	}
+	
+	
+	focus = {
+		id = Gleb_decrees
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Smolensk_reform
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id =  Fuck_where_is_my_beer?
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Gleb_decrees
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = Long_live_great_General_Admiral_Gleb!
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus =  Fuck_where_is_my_beer?
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = Literacy_in_exchange_for_speed
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus =  Fuck_where_is_my_beer?
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = Total_militarization
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus =Long_live_great_General_Admiral_Gleb!
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = Religion
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Literacy_in_exchange_for_speed
+			focus = Total_militarization
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = Support_for_leaders
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Religion
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = Contribution_to_development
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Support_for_leaders
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = Support_Smolensk_Council
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Make_the_country_safe
+		}
+		mutually_exclusive = {
+			focus = Support_the_Party_of_the_Labor
+		}
+		x = 16
+		y = 1
+		
+		completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.1
+		}
+		add_war_support = 0.1
+		add_political_power = 75
+		
+		}
+
+	}
+	focus = {
+		id = The_coming_to_power_of_the_Nazis
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = Support_Smolensk_Council
+		}
+		x = 16
+		y = 2
+		
+		completion_reward = {
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.2
+		}
+		add_war_support = 0.15
+		add_political_power = 200
+		army_experience = 40
+		
+		}
+
+	}
+	focus = {
+		id = Glebandia_will_be_great!
+		icon = GFX_goal_unknown
+		cost = 3
+		prerequisite = {
+			focus = The_coming_to_power_of_the_Nazis
+		}
+		x = 16
+		y = 3
+		
+		completion_reward = {
+		add_political_power = 300
+		add_war_support = 0.15
+		add_doctrine_cost_reduction = {
+		cost_reduction = 0.75
+		uses = 3
+		category = land_doctrine
+		}
+		add_manpower = 300000
+		}
+
+	}
+	focus = {
+		id = Gain_a_foothold_in_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Glebandia_will_be_great!
+		}
+		x = 18
+		y = 4
+		
+		completion_reward = {
+		
+		army_experience = 100
+		 add_division = {
+            division_name = "Glebskiy Legion"
+            division_template = "Gleb Elit"
+            start_experience_factor = 1
+            location = 11220
+            owner = ROOT
+			}
+        }
+		
+	}
+
+	focus = {
+		id = Khokhly_fucking
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Gain_a_foothold_in_power
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = Donetsk_or_war
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Khokhly_fucking
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = The_crest_will_be_killed 
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Donetsk_or_war
+		}
+		mutually_exclusive = {
+			focus = Our_Donetsk!
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = Donetsk_in_two_days
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = The_crest_will_be_killed 
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = Support_the_Party_of_the_Labor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Make_the_country_safe
+		}
+		mutually_exclusive = {
+			focus = Support_Smolensk_Council
+		}
+		x = 27
+		y = 1
+
+	}
+	focus = {
+		id = Coming_to_power_of_the_Soviets
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Support_the_Party_of_the_Labor
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = Long_live_Lenin!
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Coming_to_power_of_the_Soviets
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = To_enlist_the_support_of_the_Soviets
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Long_live_Lenin!
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = Throw_the_shackles
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = To_enlist_the_support_of_the_Soviets
+		}
+		x = 32
+		y = 7
+
+	}
+	focus = {
+		id = Require_Western_Ukraine
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Throw_the_shackles
+		}
+		mutually_exclusive = {
+			focus = We_bent
+		}
+		x = 30
+		y = 8
+
+	}
+	focus = {
+		id = Support_the_Poland_section
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Require_Western_Ukraine
+		}
+		x = 30
+		y = 11
+
+	}
+	focus = {
+		id = Our_Donetsk!
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Donetsk_or_war
+		}
+		mutually_exclusive = {
+			focus = The_crest_will_be_killed
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = The_revival_of_Donetsk
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Our_Donetsk!
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = Fucking
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = The_revival_of_Donetsk
+			focus = Donetsk_in_two_days
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = Ukraine_in_2_weeks
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Fucking
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = About_whore
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Ukraine_in_2_weeks
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = Warsaw_is!
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = About_whore
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = Pribaltika_9
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Warsaw_is!
+		}
+		x = 17
+		y = 14
+
+	}
+	focus = {
+		id = Long_live_Glebland
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Pribaltika_9
+		}
+		x = 25
+		y = 15
+
+	}
+	focus = {
+		id = PUN
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Long_live_Glebland
+		}
+		x = 25
+		y = 16
+
+	}
+	focus = {
+		id = The_march_of_justice
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = PUN
+		}
+		x = 25
+		y = 17
+
+	}
+	focus = {
+		id = We_bent
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Throw_the_shackles
+		}
+		mutually_exclusive = {
+			focus = Require_Western_Ukraine
+		}
+		x = 34
+		y = 8
+
+	}
+	focus = {
+		id = Baltic_roads_to_hell
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Support_the_Poland_section
+			focus = Long_live_Glebland
+		}
+		x = 30
+		y = 14
+
+	}
+	focus = {
+		id = Women?
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Total_militarization
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = Defense-life
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = Women?
+		}
+		x = 3
+		y = 6
+
+	}
+}

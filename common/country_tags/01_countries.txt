@@ -1,0 +1,5 @@
+NOV = "countries/Novosir.txt"
+NIT = "countries/Nikitia.txt"
+CER = "countries/Chernilia.txt"
+GLB = "countries/Gleblandia.txt"
+USD = "countries/USD.txt"

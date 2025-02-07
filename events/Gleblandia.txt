@@ -1,0 +1,22 @@
+add_namespace = gleblandia
+
+country_event = {
+    id = gleblandia.1
+    title = gleblandia.1.t
+    desc = gleblandia.1.d
+    picture = GFX_report_event_generic_funeral
+
+    fire_only_once = yes  
+    trigger = {
+        tag = GLB  
+        date > 1936.01.10
+        date < 1936.02.10
+    }
+
+    option = {
+        name = gleblandia.1.a
+    }
+    option = {
+        name = gleblandia.1.b
+    }
+}

@@ -1,0 +1,10 @@
+loadingscreen = {
+    spriteType = {
+        name = "GFX_loadingscreen_1"
+        texturefile = "gfx/loadingscreens/load_3.dds"
+    }
+    spriteType = {
+        name = "GFX_loadingscreen_2"
+        texturefile = "gfx/loadingscreens/load_4.dds"
+    }
+}

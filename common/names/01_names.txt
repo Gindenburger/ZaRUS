@@ -1,0 +1,70 @@
+NOV = {
+	male = {
+		names = { Goydaslav Pedic Karlic Cipsoslav GOOOL Ramil Maricon
+		}
+	}
+	female = {
+		names = { Nika Artemiy
+		}
+	}
+	surnames = { Goydovich Pedikson Griffit Churkabes Ogli Dzambetov Zelensky Trezvy
+	}
+	callsigns = { Diryaviy Oreshnuk Putin
+	}
+
+
+}
+
+
+NIT = {
+	male = {
+		names = { Ramzan Pidor Duda Maricon
+		}
+	}
+	female = {
+		names = { Liza Vika
+		}
+	}
+	surnames = { Goydovich Pedikson Churkabes Ogli Dzambetov Zelensky
+	}
+	callsigns = { Diryaviy Oreshnuk Putin
+	}
+
+
+}
+
+
+CER = {
+	male = {
+		names = { Ramzan Duda Almarsen Jamal Hamil
+		
+	}
+	female = {
+		names = { Liza Vika
+		}
+	}
+	surnames = { Basaev Rusachkov Churkabes Ogli Dzambetov
+	}
+	callsigns = { Diryaviy Oreshnuk Putin
+	}
+
+
+}
+
+
+GLB = {
+	male = {
+		names = { Gleb Adam Maxim Abu Babijhon 
+		
+	}
+	female = {
+		names = { Liza Vika  
+		}
+	}
+	surnames = { Kadyrov Ronaldo Gol Xusein Benladen
+	}
+	callsigns = { Diryaviy Oreshnuk Putin
+	}
+
+
+}

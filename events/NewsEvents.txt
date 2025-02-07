@@ -1,0 +1,110 @@
+add_namespace = news
+
+# new year 37
+news_event = {
+    id = new_year.1
+    title = new_year.1.t
+    desc = new_year.1.d
+    picture = GFX_report_event_generic_news
+
+    is_triggered_only = no  
+
+    trigger = {
+        date > 1937.01.01  
+    }
+
+    option = {
+        name = my_news_event.1.a  
+    }
+}
+
+# New year 38
+news_event = {
+    id = new_year.2
+    title = new_year.2.t
+    desc = new_year.2.d
+    picture = GFX_report_event_generic_news_1
+
+    is_triggered_only = no  
+
+    trigger = {
+        date > 1938.01.01  
+    }
+
+    option = {
+        name = my_news_event.2.a  
+    }
+}
+
+# New year 39
+news_event = {
+    id = new_year.3
+    title = new_year.3.t
+    desc = new_year.3.d
+    picture = GFX_report_event_generic_news_2
+
+    is_triggered_only = no  
+
+    trigger = {
+        date > 1939.01.01  
+    }
+
+    option = {
+        name = my_news_event.3.a  
+    }
+}
+
+# New year 40
+news_event = {
+    id = new_year.3
+    title = new_year.3.t
+    desc = new_year.3.d
+    picture = GFX_report_event_generic_news_3
+
+    is_triggered_only = no  
+
+    trigger = {
+        date > 1940.01.01  
+    }
+
+    option = {
+        name = my_news_event.3.a  
+    }
+}
+
+# New year 41
+news_event = {
+    id = new_year.4
+    title = new_year.4.t
+    desc = new_year.4.d
+    picture = GFX_report_event_generic_news_4
+
+    is_triggered_only = no  
+
+    trigger = {
+        date > 1941.01.01  
+    }
+
+    option = {
+        name = my_news_event.4.a  
+    }
+}
+
+# No new year
+news_event = {
+    id = new_year.5
+    title = new_year.5.t
+    desc = new_year.5.d
+    picture = GFX_report_event_generic_news_5
+
+    is_triggered_only = no  
+
+    trigger = {
+        date > 1942.01.01  
+    }
+
+    option = {
+        name = my_news_event.5.a  
+    }
+}
+

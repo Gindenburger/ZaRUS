@@ -1,0 +1,240 @@
+focus_tree = {
+	id = nikitia_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NIT
+		} 
+	}
+	
+	
+	
+###### Politics vnut ######
+
+
+focus = {
+	id = NIT_polit_que
+	prerequisite = { focus = NIT_nachalo_vnut }
+	icon = GFX_goal_generic_production2
+	x = 24
+	y = 1
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_migrant_que
+	prerequisite = { focus = NIT_polit_que }
+	icon = GFX_goal_generic_production2
+	x = 20
+	y = 2
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_migrant_victory
+	prerequisite = { focus = NIT_migrant_que }
+	icon = GFX_goal_generic_production2
+	x = 20
+	y = 3
+	cost = 5
+	}
+
+focus = {
+	id = NIT_novoe_gos
+	prerequisite = { focus = NIT_polit_que }
+	icon = GFX_goal_generic_production2
+	x = 23
+	y = 2
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_geopolit
+	prerequisite = { focus = NIT_novoe_gos }
+	icon = GFX_goal_generic_production2
+	x = 23
+	y = 3
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_austria
+	prerequisite = { focus = NIT_geopolit }
+	icon = GFX_goal_generic_production2
+	x = 22
+	y = 4
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_cheh
+	prerequisite = { focus = NIT_geopolit }
+	icon = GFX_goal_generic_production2
+	x = 24
+	y = 4
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_ukrep_furrer
+	prerequisite = { focus = NIT_cheh }
+	prerequisite = { focus = NIT_austria }
+	icon = GFX_goal_generic_production2
+	x = 23
+	y = 5
+	cost = 5
+	}
+
+###### Economy ######
+
+focus = {
+	id = NIT_economy_que
+	prerequisite = { focus = NIT_nachalo_vnut }
+	icon = GFX_goal_generic_production2
+	x = 12
+	y = 1
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_1
+	prerequisite = { focus = NIT_economy_que }
+	icon = GFX_goal_generic_production2
+	x = 14
+	y = 2
+	cost = 5
+	}
+
+focus = {
+	id = NIT_economy_2
+	prerequisite = { focus = NIT_economy_1 }
+	icon = GFX_goal_generic_production2
+	x = 14
+	y = 3
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_3
+	prerequisite = { focus = NIT_economy_2 }
+	mutually_exclusive = {focus = NIT_economy_4}
+	icon = GFX_goal_generic_production2
+	x = 13
+	y = 4
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_4
+	prerequisite = { focus = NIT_economy_2 }
+	mutually_exclusive = {focus = NIT_economy_3}
+	icon = GFX_goal_generic_production2
+	x = 15
+	y = 4
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_5
+	prerequisite = { focus = NIT_economy_4 focus = NIT_economy_3 }
+	icon = GFX_goal_generic_production2
+	x = 12
+	y = 5
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_6
+	prerequisite = { focus = NIT_economy_4 focus = NIT_economy_3 }
+	icon = GFX_goal_generic_production2
+	x = 14
+	y = 5
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_7
+	prerequisite = { focus = NIT_economy_4 focus = NIT_economy_3 }
+	icon = GFX_goal_generic_production2
+	x = 16
+	y = 5
+	cost = 5
+	}
+
+## Economy issled ##
+	
+focus = {
+	id = NIT_economy_issled_1
+	prerequisite = { focus = NIT_economy_que }
+	icon = GFX_goal_generic_production2
+	x = 10
+	y = 2
+	cost = 5
+	}
+
+focus = {
+	id = NIT_economy_issled_2
+	prerequisite = { focus = NIT_economy_issled_1 }
+	icon = GFX_goal_generic_production2
+	x = 10
+	y = 3
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_issled_3
+	prerequisite = { focus = NIT_economy_issled_2 }
+	icon = GFX_goal_generic_production2
+	x = 10
+	y = 4
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_issled_4
+	prerequisite = { focus = NIT_economy_issled_3 }
+	icon = GFX_goal_generic_production2
+	x = 10
+	y = 5
+	cost = 5
+	}
+	
+
+## Economy infra ##
+
+focus = {
+	id = NIT_economy_infra_1
+	prerequisite = { focus = NIT_economy_que }
+	icon = GFX_goal_generic_production2
+	x = 8
+	y = 2
+	cost = 5
+	}
+
+focus = {
+	id = NIT_economy_infra_2
+	prerequisite = { focus = NIT_economy_infra_1 }
+	icon = GFX_goal_generic_production2
+	x = 8
+	y = 3
+	cost = 5
+	}
+	
+focus = {
+	id = NIT_economy_infra_3
+	prerequisite = { focus = NIT_economy_infra_2 }
+	icon = GFX_goal_generic_production2
+	x = 8
+	y = 4
+	cost = 5
+	}
+
+
+
+
+
+
+
+}

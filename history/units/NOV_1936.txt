@@ -1,0 +1,80 @@
+division_template = {
+	name = "Goida Division"	
+	division_names_group = NOV_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 726
+		division_template = "Goida Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3761
+		division_template = "Goida Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11809
+		division_template = "Goida Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3902
+		division_template = "Goida Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9703
+		division_template = "Goida Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+
+
+
+
