@@ -7,7 +7,7 @@ characters = {
 		}
 	
 		field_marshal = { 
-				traits = { Infantry_Expert Panzer_Expert Panzer_Expert }
+				traits = { Infantry_Expert Panzer_Expert  }
 				skill = 10
 				attack_skill = 10
 				defense_skill = 10
@@ -35,7 +35,7 @@ characters = {
 		}
 	
 		field_marshal = { 
-				traits = { Infantry_Expert Panzer_Expert Panzer_Expert }
+				traits = { Infantry_Expert Panzer_Expert  }
 				skill = 10
 				attack_skill = 10
 				defense_skill = 10
