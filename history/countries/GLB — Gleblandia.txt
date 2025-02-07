@@ -3,6 +3,9 @@ set_oob = "GLB_1936"
 
 recruit_character = GLB_Afonich
 recruit_character = GLB_Adam
+recruit_character = GLB_LAPOT
+recruit_character = GLB_RACHUS
+recruit_character = GLB_GLINOMESSI
 
 
 set_national_unity = 0.5
