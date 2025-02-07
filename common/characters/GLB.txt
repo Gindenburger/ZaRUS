@@ -1,0 +1,43 @@
+characters = {
+	GLB_Afonich {
+		name = GLB_Afonich
+		portraits = {
+			civilian = {}
+			army = {}
+		}
+	
+		field_marshal = { 
+				traits = { Infantry_Officer Infantry_Leader Ranger }
+				skill = 5
+				attack_skill = 5
+				defense_skill = 5
+				planning_skill = 5
+				logistics_skill = 5
+
+			}
+		
+		advisor = {
+				cost = 150
+				slot = theorist
+				ledger = army
+
+				traits = {
+					grand_battle_plan_expert
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

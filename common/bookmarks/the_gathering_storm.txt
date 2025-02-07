@@ -27,7 +27,7 @@ bookmarks = {
 			ideology = fascism
 		}
 		"USD"={
-			history = "CER_GATHERING_STORM_DESC"
+			history = "USD_GATHERING_STORM_DESC"
 			ideology = fascism
 		}
 	}

@@ -1,5 +1,9 @@
 capital = 242
 set_oob = "GLB_1936"
+
+recruit_character = GLB_Afonich
+
+
 set_national_unity = 0.5
 set_research_slots = 2
 set_technology = {
@@ -62,10 +66,4 @@ create_country_leader = {
   expire = "2025.1.28"
   ideology = nazism
   traits = { }
-}
-create_field_marshal = {
-  name = "Clim Zhukov"
-  picture = "gfx/leaders/SHL/SHL_mikhail.dds"
-  traits = { }
-  skill = 5
 }
