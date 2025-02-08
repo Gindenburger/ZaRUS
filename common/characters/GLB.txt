@@ -2,8 +2,12 @@ characters = {
 	GLB_Afonich {
 		name = GLB_Afonich
 		portraits = {
-			civilian = {}
-			army = {}
+			civilian = {
+				large = "gfx/leaders/GLB/GLB_Afonich.dds"
+			}
+			army = {
+			    large = "gfx/leaders/GLB/GLB_Afonich.dds"
+			}
 		}
 	
 		field_marshal = { 
@@ -30,8 +34,12 @@ characters = {
 	GLB_Adam {
 		name = GLB_Adam
 		portraits = {
-			civilian = {}
-			army = {}
+			civilian = {
+				large = "gfx/leaders/GLB/GLB_Adam.dds"
+			}
+			army = {
+				large = "gfx/leaders/GLB/GLB_Adam.dds"
+			}
 		}
 	
 		field_marshal = { 
@@ -58,8 +66,12 @@ characters = {
 	GLB_LAPOT {
 		name = GLB_LAPOT
 		portraits = {
-			civilian = {}
-			army = {}
+			civilian = {
+				large = "gfx/leaders/GLB/GLB_LAPOT.dds"
+			}
+			army = {
+				large = "gfx/leaders/GLB/GLB_LAPOT.dds"
+			}
 		}
 	
 		field_marshal = { 
@@ -86,8 +98,12 @@ characters = {
 	GLB_RACHUS {
 		name = GLB_RACHUS
 		portraits = {
-			civilian = {}
-			army = {}
+			civilian = {
+				large = "gfx/leaders/GLB/GLB_RACHUS.dds"
+			}
+			army = {
+				large = "gfx/leaders/GLB/GLB_RACHUS.dds"
+			}
 		}
 	
 		field_marshal = { 
@@ -114,8 +130,12 @@ characters = {
 	GLB_GLINOMESSI {
 		name = GLB_GLINOMESSI
 		portraits = {
-			civilian = {}
-			army = {}
+			civilian = {
+				large = "gfx/leaders/GLB/GLB_GLINOMESSI.dds"
+			}
+			army = {
+				large = "gfx/leaders/GLB/GLB_GLINOMESSI.dds"
+			}
 		}
 	
 		field_marshal = { 

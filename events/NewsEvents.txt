@@ -5,18 +5,18 @@ news_event = {
     id = test.6
     title = test.6.t
     desc = test.6.d
-    picture = GFX_report_event_generic_news
+    picture = "gfx/event_pictures/GFX_report_event_generic_news.dds"
     major = yes 
+     mean_time_to_happen = {
+        days = 1
+    }|
 
-    is_triggered_only = yes
+    fire_only_once = yes
 
     trigger = {
-        date > 1936.01.15
+        date < 1936.01.15
+        tag = GLB
         }
-
-    mean_time_to_happen = {
-        days = 1
-    }
 
     option = {
         name =test.6.a  
@@ -28,7 +28,7 @@ news_event = {
     id = new_year.1
     title = new_year.1.t
     desc = new_year.1.d
-    picture = GFX_report_event_generic_news
+    picture = "gfx/event_pictures/GFX_report_event_generic_news.dds"
 
     is_triggered_only = no  
 
@@ -46,7 +46,7 @@ news_event = {
     id = new_year.2
     title = new_year.2.t
     desc = new_year.2.d
-    picture = GFX_report_event_generic_news_1
+    picture = "gfx/event_pictures/GFX_report_event_generic_news_1.dds"
 
     is_triggered_only = no  
 
@@ -64,7 +64,7 @@ news_event = {
     id = new_year.3
     title = new_year.3.t
     desc = new_year.3.d
-    picture = GFX_report_event_generic_news_2
+    picture = "gfx/event_pictures/GFX_report_event_generic_news_2.dds"
 
     is_triggered_only = no  
 
@@ -82,7 +82,7 @@ news_event = {
     id = new_year.3
     title = new_year.3.t
     desc = new_year.3.d
-    picture = GFX_report_event_generic_news_3
+    picture = "gfx/event_pictures/GFX_report_event_generic_news_3.dds"
 
     is_triggered_only = no  
 
@@ -100,7 +100,7 @@ news_event = {
     id = new_year.4
     title = new_year.4.t
     desc = new_year.4.d
-    picture = GFX_report_event_generic_news_4
+    picture = "gfx/event_pictures/GFX_report_event_generic_news_4.dds"
 
     is_triggered_only = no  
 
@@ -118,7 +118,7 @@ news_event = {
     id = new_year.5
     title = new_year.5.t
     desc = new_year.5.d
-    picture = GFX_report_event_generic_news_5
+    picture = "gfx/event_pictures/GFX_report_event_generic_news_5.dds"
 
     is_triggered_only = no  
 
