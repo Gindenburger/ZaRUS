@@ -83,3 +83,14 @@ music = {
 	}	
 }
 
+music = {
+	song = "music_8"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}

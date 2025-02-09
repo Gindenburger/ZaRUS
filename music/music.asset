@@ -40,3 +40,8 @@ music = {
 	file = "music_7.ogg"
 	volume = 0.65
 }
+music = {
+	name = "music_8"
+	file = "music_8.ogg"
+	volume = 0.65
+}
