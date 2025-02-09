@@ -5,7 +5,7 @@ music = {
 	song = "music_4"
 	chance = {
 		modifier = {
-			factor = 0.5
+			factor = 1
 		}		
 	}
 }
@@ -24,7 +24,7 @@ music = {
 }
 
 music = {
-	song = music_2"
+	song = "music_2"
 	
 	chance = {
 		modifier = {
@@ -35,10 +35,6 @@ music = {
 	}	
 }
 
-
-
-# WAR SONGS ####################
-
 music = {
 	song = "music_1"
 	
@@ -46,7 +42,7 @@ music = {
 		modifier = {
 			factor = 1
 
-			has_war = yes
+			has_war = no
 		}		
 	}	
 }
@@ -58,7 +54,7 @@ music = {
 		modifier = {
 			factor = 1
 
-			has_war = yes
+			has_war = no
 		}		
 	}	
 }
@@ -68,9 +64,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
-			has_war = yes
+			has_war = no
 		}		
 	}	
 }
@@ -80,9 +76,9 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 
-			has_war = yes
+			has_war = no
 		}		
 	}	
 }
