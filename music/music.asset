@@ -2,8 +2,8 @@
 
 # MAIN THEME
 music = {
-	name = "music_4"
-	file = "music_4.ogg"
+	name = "maintheme"
+	file = "hoi4mainthemeallies.ogg"
 	volume = 0.65
 }
 
