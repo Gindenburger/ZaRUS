@@ -48,7 +48,7 @@ music = {
 }
 
 music = {
-	song = "music_5"
+	song = "music_4"
 	
 	chance = {
 		modifier = {
